@@ -1,0 +1,764 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: #fff !important;
+}
+.navbar .container-fluid .navbar-brand img{
+    height: 6vh;
+}
+.navbar .container-fluid .right{
+    display: flex;
+}
+.navbar .container-fluid .right .search{
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted;
+    border-radius: 15%;
+}
+.navbar .container-fluid .right .search p{
+    margin: auto;
+    font-size: 11px !important;
+}
+.navbar .container-fluid .right .notification{
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar .container-fluid .right .login button{
+    width: 9vh;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.home .image img{
+    width: 80vw;
+    position: absolute;
+    z-index: -999;
+    right: 0;
+    height: 86vh;
+    margin-top: 5vh;
+}
+.home .slogan_top{
+width: 63vh;
+position: absolute;
+background: #fff;
+box-shadow: 2px 2px 11px -6px !important;
+padding: 3px;
+top: 22vh;
+border-top-right-radius: 35px;
+border-bottom-right-radius: 35px;
+
+}
+.home .slogan_top .lets{
+    color: rgb(94, 94, 241);
+    font-size: 5vh;
+    font-style: bold;
+    font-weight: 800;
+}
+
+.home .slogan_top .lets span{
+    width: 100%;
+    justify-content: center;
+    margin-left: 3vh;
+}
+.home .slogan_top p{
+    font-size: 12px;
+    font-weight: 800;
+    width: 56vh;
+}
+.home .buy_sell_rent{
+    position: absolute;
+    top: 60%;
+    margin-left: 8px;
+    z-index: 999;
+}
+.home .buy_sell_rent .btn{
+    width: 66px;
+    height: 36px;
+}
+.search_slogan{
+    width: 65vw;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    background: #fff;
+    top: 80%;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    padding: 1vh;
+    box-shadow: 2px 2px 11px -6px !important;
+    padding: 1% 0%;
+}
+.search_slogan div{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+.search_slogan div h6{
+    font-size: 10px;
+    color: gray;
+}
+.search_slogan div h3{
+    font-size: 2.5vh;
+    font-weight: 700;
+}
+.dream .dream_appartment{
+    position: absolute;
+    top: 112%;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    width: 100%;
+}
+.dream .dream_appartment .dream_heading{
+    font-size: 6vh;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+}
+.dream .dream_appartment .dream_Text{
+    color: #186AA5;
+    font-size: 5.6vh;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.dream .dream_appartment .dream_para{
+    font-size: 2.5vh;
+    justify-content: center;
+    display: flex;
+    color: gray;
+}
+.dream .dream_appartment .appartment{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    margin: 5% 0%;
+
+}
+.dream .dream_appartment .appartment div{
+    box-shadow: 2px 2px 11px -6px !important;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    border-radius: 14px;
+    flex-direction: column;
+}
+.dream .dream_appartment .appartment div img{
+    width: 18vw;
+    height: 26vh;
+}
+.dream .dream_appartment .appartment div p{
+    font-size: 2.4vh;
+    color: gray;
+    position: relative;
+    top: 7%;
+}
+.feature_container{
+    position: absolute !important;
+    top: 220%;
+}
+.feature_container .feature .heading{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+}
+.feature_container .feature .heading .heading_content{
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.feature_container .feature .heading .heading_para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 17px;
+    font-weight: 500;
+}
+.feature_container .feature .feature_content{
+    display: flex !important;
+    justify-content: space-evenly;
+    height: 63vh;
+    margin-top: 5%;
+}
+.feature_container .feature .feature_content .card{
+   width: 26.9vw !important;
+   box-shadow: 2px 2px 13px -7px !important;
+   overflow: hidden;
+
+}
+.feature_container .feature .feature_content .card .card-img-top{
+    height: 100vh;
+    width: 27vw;
+}
+.feature_container .feature .feature_content .card .card-body{
+    height: 100vh;
+    width: 27vw;
+    font-size: 23px;
+    font-weight: 700;
+}
+.feature_container .feature .feature_content .card .card-body p{
+    font: 12px;
+    margin-bottom: 0% !important;
+}
+.feature_container .feature .feature_content .card .card-body .text-primary{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.feature_container .feature .feature_content .card .card-body {
+    color: gray;
+    font-size: 10px;
+} 
+
+.plans{
+    top: 319%;
+    position: absolute;
+    height: 120vh !important;
+    background: #f6f7fb;
+    width: 100vw;    top: 319%;
+    position: absolute;
+    height: 100vh;
+    background: #f6f7fb;
+    width: 100vw;
+    z-index: 999;
+}
+.plans .plans_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19vh;
+}
+.plans .plans_container h3{
+    font-size: 6.5vh;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.plans .plans_container .plans_navigation .nav_list{
+    display: flex;
+    list-style-type: none;
+
+    justify-content: center;
+    margin-top: 8vh;
+    width: 100vw;
+}
+.plans .plans_container .plans_navigation .nav_list li{
+    margin: 0% 3%;
+}
+.plans .plans_container .plans_navigation .nav_list a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+}
+.plans .plans_container .plans_navigation .nav_list a:hover{
+    font-size:15px ;
+    font-weight: 600;
+    color:rgb(31, 18, 204);
+    text-decoration: underline rgb(31, 18, 204);
+}
+.plans .plans_container .image img{
+    right: 10%;
+    position: absolute;
+    height: 40%;
+    margin-top: 4%;
+}
+.plans .plans_container .image_container .image_content{
+    width: 33%;
+    height: 46%;
+    position: absolute;
+    top: 39%;
+    background: ble;
+    justify-content: center;
+    left: 15%;
+    border-radius: 20px;
+     background-color: #186AA5 !important;
+     display: flex;
+     flex-direction: column;
+}
+.plans .plans_container .image_container .image_content .img_heading{
+    display: flex !important;
+    font-size: 26px;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 2vh;
+}
+.plans .plans_container .image_container .image_content P{
+    display: flex;
+    text-align: justify;
+    padding: 0vw 2vw;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+}
+.gallery{
+    display: flex;
+    position: absolute;
+    top: 434%;
+    background: #fff;
+}
+.gallery .gallery_container{
+    display: flex;
+}
+.gallery .gallery_container .gallery_left{
+    width: 44vw;
+    margin: auto 3%;
+    margin: auto 1vw;
+    position: relative;
+    top: 50%;
+    height: 100vh;
+}
+.gallery .gallery_container .gallery_left h1{
+    font-size: 30px;
+    font-weight: 800;
+    color: #14395B;
+}
+
+.gallery .gallery_container .gallery_left h1 span{
+    text-align-last: right;
+    display: flex;
+    justify-content: center;
+    color: #2289FF;
+}
+.gallery .gallery_container .gallery_left button{
+    padding: 10px;
+    background: #2289FF;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    margin-top: 2vh;
+    width: 39%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 5% 9%;
+}
+.gallery .gallery_container .gallery_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery .gallery_container .gallery_right .union{
+    width: 15vw;
+    height: 26vh;
+    position: absolute;
+    top: 22vh;
+    left: 36vw;
+}
+.gallery .gallery_container .gallery_right .img_appartment{
+    width: 61vw;
+    position: absolute;
+    left: 78%;
+    top: 152px;
+    height: 87vh;
+}
+.gallery .gallery_container .gallery_right iframe{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    width: 37vh;
+    height: 23vh;
+    border-radius: 25px;
+    left: 34vw;
+}
+
+.faq {
+    position: absolute;
+    top: 632%;
+    margin: 15%;
+    width: 63vw;
+}
+.faq .faq_container{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.faq .faq_container h2{
+    margin-bottom: 5%;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: ariel;
+}
+.faq .faq_container .card{
+    width: 70vw;
+}
+.dream.dream_appartment .button_container{
+    display: flex !important;
+    justify-content: center;
+}
+.footer {
+    position: absolute !important;
+    top: 748%;
+    background: #14395B;
+    color: #fff;
+    height: 57vh !important;
+}
+.footer .footer_container .footer_content{
+    justify-content: center;
+    display: flex; 
+    flex-direction: column;
+    margin-left: 2vh;
+    width: 24vw;
+}
+.footer .footer_container .footer_content img{
+    width: 25vh;
+    margin-top: -31px;
+}
+.footer .footer_container .footer_content h2{
+    font-size: 26px;
+    font-weight: 700;
+}
+.footer .footer_container .footer_content ul{
+    list-style-type: none;
+    padding-left: 0%;
+}
+.footer .footer_container .footer_content ul li{
+    margin-bottom: 2vh;
+}
+.footer .footer_container .footer_content ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+}
+.listing{
+    position: absolute;
+    top: 558%;
+}
+.listing .listing_container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background: #80808014;
+}
+.listing .listing_container .listing_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8vh;
+}
+.listing .listing_container .listing_header p{
+    font-size: 12px;
+}
+.listing .listing_container .listing_content{
+    display: grid !important;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 200px 200px 200px 200px;
+    margin-bottom: 8vh;
+}
+.listing .listing_container .listing_content div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    align-items: center;
+    margin: 2vh;
+    height: 25vh;
+    box-shadow: 1px 1px 10px -4px;
+    border-radius: 13px;
+}
+.listing .listing_container .listing_content div img{
+    width: 5vh;
+    margin-bottom: 2vh;
+}
+.listing .listing_container .listing_content div p{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: #f6f7fb;
+        width: 100%;
+    }
+    .navbar{
+        background: #fff !important;
+    }
+    .navbar .container-fluid .right{
+        display: none ;
+    }
+    .navbar .container-fluid .navbar-brand img {
+        height: 5vh !important;
+    }
+    .navbar .container-fluid .collapse {
+        font-size: 17px;
+        font-family: verdana;
+        font-weight: 600;
+    }
+    .home .image img{
+        display: block;
+        width: 100%;
+        top: 0;
+        position: relative;
+        height: 50vh;
+        padding: 0;
+        margin: 0;
+    }
+    .home .slogan_top{
+        display: block;
+        position: relative;
+        width: 100%;
+        top: 6px;
+        border-radius: 0;
+        box-shadow: none !important;
+    }
+    .home .buy_sell_rent{
+        position: relative;
+        top: 20px;
+        justify-content: center;
+        display: flex;
+        justify-content: space-around;
+    }
+    .home .search_slogan{
+        position: relative;
+    top: 35px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: none !important;
+    }
+    .home .search_slogan .submit{
+        display: block !important;
+    }
+    .home .slogan_top{
+        top: 9px;
+    }
+    .home .slogan_top .lets{
+        font-size: 27px;
+    }
+    .home .slogan_top p {
+        font-size: 11px;
+        font-weight: 800;
+        width: 100vw;
+}
+.dream .dream_appartment{
+    position: relative;
+    top: 50px;
+}
+.dream .dream_appartment .appartment{
+    display: block;
+    width: 100%;
+  
+}
+.dream .dream_appartment .appartment div{
+    display: flex;
+    width: 100vw;
+    padding: 0%;
+    border-radius: 0px;
+    box-shadow: none !important;
+    margin: 5% 0%;
+}
+.dream .dream_appartment .appartment div img{
+    width: 100vw;
+    border-radius: none;
+    height: 40vh;
+    
+}
+.dream .dream_appartment .dream_appartment div p{
+    display: flex;
+    justify-content: center;
+}
+.dream .dream_appartment .dream_heading{
+    font-size: 25px;
+}
+.dream .dream_appartment .dream_Text{
+    font-size: 25px;
+}
+.dream .dream_appartment .dream_para{
+    font-size: 2vh;
+}
+.dream.dream_appartment .button_container{
+    display: flex !important;
+    justify-content: center;
+}
+.feature_container .feature .feature_content .card .card-img-top {
+    height: 50vh;
+    width: 100vw;
+}
+.feature_container .feature .feature_content .card .card-body p {
+    color: black;
+    width: 100vw;
+}
+.feature_container{
+    position: relative !important;
+    margin-top: 19%;
+}
+.feature_container .feature .heading{
+    display: block;
+}
+.feature_container .feature .heading .heading_content {
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.feature_container .feature .heading .heading_para {
+    color: gray;
+    font-size: 11px;
+    font-weight: 500;
+}
+.feature_container .feature .feature_content .card {
+    width: 100vw !important;
+    overflow: hidden;
+    margin-top: 5%;
+}
+.feature_container .feature .feature_content .card .card-body {
+    color: gray;
+    font-size: 10px;
+    width: 100vw;
+    height: 25vh;
+}
+.feature_container .feature .feature_content .card .card-body .text-primary {
+    font-size: 15px;
+    font-weight: 600;
+}
+.feature_container .feature .feature_content .card .appartment_detail{
+    display: none;
+}
+.feature_container .feature .feature_content {
+    display: block !important;
+    height: 63vh;
+    margin-top: 5%;
+}
+.gallery {
+    display: none;
+}
+.plans {
+    position: absolute !important;
+    height: 110vh !important;
+    background: #f6f7fb;
+    width: 100vw;
+    top: 579%;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+.plans .plans_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plans .plans_container h3 {
+    font-size: 5.5vh;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.plans .plans_container .image_container {
+    height: 110vh !important;
+    border-radius: 0%;
+}
+.plans .plans_container .image_container .image_content {
+    width: 100%;
+    height: 45%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    background-color: #186AA5 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.listing {
+    position: absolute;
+    top: 730%;
+}
+.listing .listing_container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background: #80808014;
+}
+.listing .listing_container .listing_content {
+    display: grid !important;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 200px 200px;
+    margin-bottom: 8vh;
+}
+.listing .listing_container .listing_content div {
+    height: 22vh;
+    width: 22vh;
+}
+.faq {
+    position: absolute;
+    top: 862%;
+}
+.faq .faq_container {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.faq .faq_container h2 {
+    margin-bottom: 5%;
+    font-size: 3.4vh;
+    font-weight: 900;
+    font-family: ariel;
+}
+.footer {
+    position: absolute !important;
+    top: 967%;
+    background: #14395B;
+    color: #fff;
+    height: 57vh !important;
+    width: 100vw;
+}
+.footer .footer_container .footer_content {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vh;
+    width: 24vw;
+}
+.footer .footer_container .footer_content img {
+    width: 11vh;
+    margin-top: -31px;
+}
+.footer .footer_container .footer_content {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vh;
+    width: 19vw;
+}
+
+.plans .plans_container .plans_navigation .nav_list a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+}
+.search_slogan div h3 {
+    font-size: 1.5vh;
+    font-weight: 700;
+}
+
+}
